@@ -22,13 +22,14 @@ function App() {
     fetchNotes();
   }, [fetchNotes]);
 
-  let abhi = "unused variable here";
+  let abhi = "Hello world";
   return (
     <div className="page-shell">
       <nav className="navbar">
         <div>
-          <p className="eyebrow">MERN task board</p>
+          <p className="eyebrow">{abhi}</p>
           <h1>NoteFlow</h1>
+          <p>A new gen note taking app</p>
         </div>
         <button
           type="button"
