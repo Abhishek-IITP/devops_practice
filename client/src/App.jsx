@@ -23,6 +23,7 @@ function App() {
   }, [fetchNotes]);
 
   let abhi = "Hello world";
+  let abhi22 = "Hello world how are you";
   return (
     <div className="page-shell">
       <nav className="navbar">
