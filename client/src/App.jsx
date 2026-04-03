@@ -20,7 +20,7 @@ function App() {
 
   useEffect(() => {
     fetchNotes();
-  }, []);
+  }, [fetchNotes]);
 
   return (
     <div className="page-shell">
