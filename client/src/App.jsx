@@ -22,6 +22,7 @@ function App() {
     fetchNotes();
   }, [fetchNotes]);
 
+  let abhi = "unused variable here";
   return (
     <div className="page-shell">
       <nav className="navbar">
