@@ -19,6 +19,10 @@ COPY . .
 
 ## copy each and everything from the folder 
 
+ARG VITE_API_URL
+ENV VITE_API_URL=$VITE_API_URL
+
+
 RUN npm run build
 
 ## to build the application
