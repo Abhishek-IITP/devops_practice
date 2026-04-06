@@ -28,7 +28,7 @@ function App() {
       <nav className="navbar">
         <div>
           <p className="eyebrow">{abhi}</p>
-          <h1>NoteFlow</h1>
+          <h1 className="text-blue-500">Taks-Manager</h1>
           <p>A new gen note taking app</p>
         </div>
         <button
